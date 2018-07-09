@@ -8,15 +8,17 @@ import (
 	"apiserver/config"
 	"apiserver/model"
 	"apiserver/router/middleware"
+	"encoding/json"
 	"errors"
+	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/lexkong/log"
 	"github.com/spf13/pflag"
 	"github.com/spf13/viper"
-	"time"
 	"os"
-	"fmt"
-	"encoding/json"
+	"time"
+
+	v "apiserver/pkg/version"
 )
 
 var (

@@ -5,11 +5,13 @@ import (
 	"apiserver/pkg/errno"
 	"apiserver/service"
 	"github.com/gin-gonic/gin"
+	"github.com/lexkong/log"
 	"strconv"
 )
 
 // List list the users in the database.
 func List(c *gin.Context) {
+	log.Info("list function called")
 	var r ListRequest
 	username := c.Query("username")
 	limit, _ := strconv.Atoi(c.Query("limit"))

@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
-	"github.com/lexkong/log"
 	"github.com/spf13/viper"
 	"time"
 )
@@ -40,8 +39,6 @@ func Parse(tokenString string, secret string) (*Context, error) {
 
 	// Parse the token.
 	token, err := jwt.Parse(tokenString, secretFunc(secret))
-
-	log.Infof("tokenString : %s ; token : %s", tokenString, token)
 
 	// Parse error.
 	if err != nil {

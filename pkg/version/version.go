@@ -1,8 +1,8 @@
 package version
 
 import (
-	"runtime"
 	"fmt"
+	"runtime"
 )
 
 // Info contains versioning information.
