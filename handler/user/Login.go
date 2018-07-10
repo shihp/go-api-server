@@ -13,7 +13,7 @@ import (
 // if the password was matched with the specified account.
 // @Summary User login
 // @Description 用户登录 获取 token
-// @Tags
+// @Tags Access
 // @Accept  json
 // @Produce  json
 // @Param user body user.CreateRequest true "user login"

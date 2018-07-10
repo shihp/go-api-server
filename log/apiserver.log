@@ -410,3 +410,26 @@
 {"level":"INFO","timestamp":"2018-07-10 11:57:29.477","file":"middleware/logging.go:82","msg":"153.40682ms   | 192.168.33.1 | POST /v1/user | {code: 0, message: OK}"}
 {"level":"INFO","timestamp":"2018-07-10 11:57:33.695","file":"user/create.go:23","msg":"User Create function called.","data":{"X-Request-Id":"4e7122ec-c030-484b-ba3d-dd79deb66067"}}
 {"level":"INFO","timestamp":"2018-07-10 11:57:33.803","file":"middleware/logging.go:82","msg":"108.076449ms  | 192.168.33.1 | POST /v1/user | {code: 20002, message: Database error.}"}
+{"level":"INFO","timestamp":"2018-07-10 15:20:31.235","file":"apiserver/main.go:96","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-10 15:20:31.235","file":"apiserver/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2018-07-10 15:20:31.243","file":"apiserver/main.go:83","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2018-07-10 15:29:34.059","file":"config/config.go:71","msg":"Config file changed: /data/project/goproject/src/apiserver/conf/config.yaml"}
+{"level":"INFO","timestamp":"2018-07-10 15:29:34.062","file":"config/config.go:71","msg":"Config file changed: /data/project/goproject/src/apiserver/conf/config.yaml"}
+{"level":"INFO","timestamp":"2018-07-10 15:29:36.654","file":"apiserver/main.go:96","msg":"Start to listening the incoming requests on http address: :80822"}
+{"level":"INFO","timestamp":"2018-07-10 15:29:36.655","file":"apiserver/main.go:97","msg":"listen tcp: address 80822: invalid port"}
+{"level":"INFO","timestamp":"2018-07-10 15:29:45.740","file":"config/config.go:71","msg":"Config file changed: /data/project/goproject/src/apiserver/conf/config.yaml"}
+{"level":"INFO","timestamp":"2018-07-10 15:29:45.742","file":"config/config.go:71","msg":"Config file changed: /data/project/goproject/src/apiserver/conf/config.yaml"}
+{"level":"INFO","timestamp":"2018-07-10 15:29:46.683","file":"apiserver/main.go:96","msg":"Start to listening the incoming requests on http address: :8082"}
+{"level":"INFO","timestamp":"2018-07-10 15:29:46.684","file":"apiserver/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2018-07-10 15:29:46.686","file":"apiserver/main.go:92","msg":"listen tcp :8081: bind: address already in use"}
+{"level":"INFO","timestamp":"2018-07-10 15:29:46.686","file":"apiserver/main.go:83","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2018-07-10 16:36:08.133","file":"apiserver/main.go:96","msg":"Start to listening the incoming requests on http address: :8082"}
+{"level":"INFO","timestamp":"2018-07-10 16:36:08.134","file":"apiserver/main.go:97","msg":"listen tcp :8082: bind: address already in use"}
+{"level":"INFO","timestamp":"2018-07-10 16:54:43.982","file":"apiserver/main.go:96","msg":"Start to listening the incoming requests on http address: :8082"}
+{"level":"INFO","timestamp":"2018-07-10 16:54:43.982","file":"apiserver/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2018-07-10 16:54:43.989","file":"apiserver/main.go:110","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2018-07-10 16:54:44.991","file":"apiserver/main.go:110","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2018-07-10 16:54:45.991","file":"apiserver/main.go:110","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2018-07-10 16:55:30.713","file":"apiserver/main.go:96","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-10 16:55:30.713","file":"apiserver/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2018-07-10 16:55:30.715","file":"apiserver/main.go:83","msg":"The router has been deployed successfully."}
