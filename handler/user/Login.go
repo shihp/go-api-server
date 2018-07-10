@@ -11,6 +11,14 @@ import (
 
 // Login generates the authentication token
 // if the password was matched with the specified account.
+// @Summary User login
+// @Description 用户登录 获取 token
+// @Tags
+// @Accept  json
+// @Produce  json
+// @Param user body user.CreateRequest true "user login"
+// @Success 200 {object} user.CreateResponse "{ "code": 0, "message": "OK", "data": { "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1MzExOTQ0MDUsImlkIjo5LCJuYmYiOjE1MzExOTQ0MDUsInVzZXJuYW1lIjoiYWRtaW4ifQ.GD_d13qqnrwHFkMEDwBbf_0MHzS1WmpMQWccwuMHqzo" } }"
+// @Router /login [post]
 func Login(c *gin.Context) {
 	// Binding the data with the user struct.
 	var u model.UserModel

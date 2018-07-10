@@ -340,3 +340,73 @@
 {"level":"INFO","timestamp":"2018-07-09 17:51:24.816","file":"middleware/logging.go:82","msg":"2.924524ms    | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
 {"level":"INFO","timestamp":"2018-07-09 17:51:24.829","file":"user/list.go:14","msg":"list function called"}
 {"level":"INFO","timestamp":"2018-07-09 17:51:24.832","file":"middleware/logging.go:82","msg":"3.050156ms    | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2018-07-09 18:03:27.135","file":"middleware/logging.go:82","msg":"85.43µs       | 192.168.33.1 | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2018-07-09 18:03:30.343","file":"middleware/logging.go:82","msg":"84.703µs      | 192.168.33.1 | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2018-07-09 18:03:33.702","file":"middleware/logging.go:82","msg":"88.603µs      | 192.168.33.1 | GET /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2018-07-09 18:04:37.066","file":"user/list.go:14","msg":"list function called"}
+{"level":"INFO","timestamp":"2018-07-09 18:04:37.070","file":"middleware/logging.go:82","msg":"3.908565ms    | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2018-07-09 18:04:37.086","file":"user/list.go:14","msg":"list function called"}
+{"level":"INFO","timestamp":"2018-07-09 18:04:37.090","file":"middleware/logging.go:82","msg":"4.931448ms    | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2018-07-09 18:04:37.105","file":"user/list.go:14","msg":"list function called"}
+{"level":"INFO","timestamp":"2018-07-09 18:04:37.108","file":"middleware/logging.go:82","msg":"2.739877ms    | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2018-07-09 18:04:37.126","file":"user/list.go:14","msg":"list function called"}
+{"level":"INFO","timestamp":"2018-07-09 18:04:37.129","file":"middleware/logging.go:82","msg":"2.936547ms    | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2018-07-09 18:04:37.145","file":"user/list.go:14","msg":"list function called"}
+{"level":"INFO","timestamp":"2018-07-09 18:04:37.150","file":"middleware/logging.go:82","msg":"5.537734ms    | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2018-07-09 18:04:37.167","file":"user/list.go:14","msg":"list function called"}
+{"level":"INFO","timestamp":"2018-07-09 18:04:37.171","file":"middleware/logging.go:82","msg":"3.708803ms    | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2018-07-09 18:04:37.184","file":"user/list.go:14","msg":"list function called"}
+{"level":"INFO","timestamp":"2018-07-09 18:04:37.189","file":"middleware/logging.go:82","msg":"5.070582ms    | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2018-07-09 18:04:37.202","file":"user/list.go:14","msg":"list function called"}
+{"level":"INFO","timestamp":"2018-07-09 18:04:37.205","file":"middleware/logging.go:82","msg":"2.971937ms    | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2018-07-09 18:04:37.216","file":"user/list.go:14","msg":"list function called"}
+{"level":"INFO","timestamp":"2018-07-09 18:04:37.219","file":"middleware/logging.go:82","msg":"2.930434ms    | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2018-07-09 18:04:37.234","file":"user/list.go:14","msg":"list function called"}
+{"level":"INFO","timestamp":"2018-07-09 18:04:37.237","file":"middleware/logging.go:82","msg":"3.272754ms    | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2018-07-10 09:38:38.531","file":"apiserver/main.go:96","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-10 09:38:38.531","file":"apiserver/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2018-07-10 09:38:38.533","file":"apiserver/main.go:83","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2018-07-10 11:24:38.294","file":"apiserver/main.go:96","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-10 11:24:38.294","file":"apiserver/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2018-07-10 11:24:38.297","file":"apiserver/main.go:83","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2018-07-10 11:32:18.621","file":"apiserver/main.go:96","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-10 11:32:18.621","file":"apiserver/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2018-07-10 11:32:18.623","file":"apiserver/main.go:83","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2018-07-10 11:35:43.146","file":"apiserver/main.go:96","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-10 11:35:43.147","file":"apiserver/main.go:97","msg":"listen tcp :8080: bind: address already in use"}
+{"level":"INFO","timestamp":"2018-07-10 11:35:49.731","file":"apiserver/main.go:96","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-10 11:35:49.731","file":"apiserver/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2018-07-10 11:35:49.733","file":"apiserver/main.go:83","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2018-07-10 11:36:40.157","file":"apiserver/main.go:96","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-10 11:36:40.158","file":"apiserver/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2018-07-10 11:36:40.161","file":"apiserver/main.go:83","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2018-07-10 11:38:57.121","file":"apiserver/main.go:96","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-10 11:38:57.121","file":"apiserver/main.go:97","msg":"listen tcp :8080: bind: address already in use"}
+{"level":"INFO","timestamp":"2018-07-10 11:39:02.477","file":"apiserver/main.go:96","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-10 11:39:02.477","file":"apiserver/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2018-07-10 11:39:02.479","file":"apiserver/main.go:83","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2018-07-10 11:40:56.293","file":"apiserver/main.go:96","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-10 11:40:56.294","file":"apiserver/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2018-07-10 11:40:56.295","file":"apiserver/main.go:83","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2018-07-10 11:41:20.988","file":"apiserver/main.go:96","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-10 11:41:20.989","file":"apiserver/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2018-07-10 11:41:20.991","file":"apiserver/main.go:83","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2018-07-10 11:41:38.809","file":"middleware/logging.go:82","msg":"136.126µs     | 192.168.33.1 | POST /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2018-07-10 11:46:23.151","file":"apiserver/main.go:96","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-10 11:46:23.152","file":"apiserver/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2018-07-10 11:46:23.153","file":"apiserver/main.go:83","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2018-07-10 11:46:45.770","file":"middleware/logging.go:82","msg":"186.632492ms  | 192.168.33.1 | POST /login | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2018-07-10 11:47:07.794","file":"middleware/logging.go:82","msg":"102.34µs      | 192.168.33.1 | POST /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2018-07-10 11:53:41.841","file":"apiserver/main.go:96","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-10 11:53:41.841","file":"apiserver/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2018-07-10 11:53:41.843","file":"apiserver/main.go:83","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2018-07-10 11:54:20.642","file":"middleware/logging.go:82","msg":"97.550417ms   | 192.168.33.1 | POST /login | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2018-07-10 11:54:42.177","file":"middleware/logging.go:82","msg":"126.773µs     | 192.168.33.1 | POST /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2018-07-10 11:56:47.486","file":"apiserver/main.go:96","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2018-07-10 11:56:47.487","file":"apiserver/main.go:91","msg":"Start to listening the incoming requests on https address: :8081"}
+{"level":"INFO","timestamp":"2018-07-10 11:56:47.489","file":"apiserver/main.go:83","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2018-07-10 11:57:14.703","file":"middleware/logging.go:82","msg":"146.751µs     | 192.168.33.1 | POST /v1/user | {code: 20103, message: The token was invalid.}"}
+{"level":"INFO","timestamp":"2018-07-10 11:57:29.324","file":"user/create.go:23","msg":"User Create function called.","data":{"X-Request-Id":"b8c2a962-d8b0-4dd4-b5fc-feb3fb96dbe2"}}
+{"level":"INFO","timestamp":"2018-07-10 11:57:29.477","file":"middleware/logging.go:82","msg":"153.40682ms   | 192.168.33.1 | POST /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2018-07-10 11:57:33.695","file":"user/create.go:23","msg":"User Create function called.","data":{"X-Request-Id":"4e7122ec-c030-484b-ba3d-dd79deb66067"}}
+{"level":"INFO","timestamp":"2018-07-10 11:57:33.803","file":"middleware/logging.go:82","msg":"108.076449ms  | 192.168.33.1 | POST /v1/user | {code: 20002, message: Database error.}"}
