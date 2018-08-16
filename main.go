@@ -6,8 +6,6 @@ import (
 	"apiserver/router"
 
 	"apiserver/config"
-	"apiserver/model"
-	"apiserver/router/middleware"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -56,11 +54,11 @@ func main() {
 	g := gin.New()
 
 	// 构建中间件全局中间件 单个路由中间件 群组中间件
-	//g.Use(middleware.RequestId())
+	//g.Use(middleware.RequestId())l
 
 	// init db
-	model.DB.Init()
-	defer model.DB.Close()
+	//model.DB.Init()
+	//defer model.DB.Close()
 
 	// gin middlewares
 	//var middlewares []gin.HandlerFunc
@@ -71,27 +69,27 @@ func main() {
 		g,
 
 		// Middlewares.
-		middleware.RequestId(),
-		middleware.Logging(),
+		//middleware.RequestId(),
+		//middleware.Logging(),
 	)
 
 	// Ping the server to make sure the router is working.
-	go func() {
-		if err := pingServer(); err != nil {
-			log.Fatal("The router has no response, or it might took too long to start up.", err)
-		}
-		log.Info("The router has been deployed successfully.")
-	}()
-
-	// Start to listening the incoming requests.
-	cert := viper.GetString("tls.cert")
-	key := viper.GetString("tls.key")
-	if cert != "" && key != "" {
-		go func() {
-			log.Infof("Start to listening the incoming requests on https address: %s", viper.GetString("tls.addr"))
-			log.Info(http.ListenAndServeTLS(viper.GetString("tls.addr"), cert, key, g).Error())
-		}()
-	}
+	//go func() {
+	//	if err := pingServer(); err != nil {
+	//		log.Fatal("The router has no response, or it might took too long to start up.", err)
+	//	}
+	//	log.Info("The router has been deployed successfully.")
+	//}()
+	//
+	//// Start to listening the incoming requests.
+	//cert := viper.GetString("tls.cert")
+	//key := viper.GetString("tls.key")
+	//if cert != "" && key != "" {
+	//	go func() {
+	//		log.Infof("Start to listening the incoming requests on https address: %s", viper.GetString("tls.addr"))
+	//		log.Info(http.ListenAndServeTLS(viper.GetString("tls.addr"), cert, key, g).Error())
+	//	}()
+	//}
 
 	log.Infof("Start to listening the incoming requests on http address: %s", viper.GetString("addr"))
 	log.Info(http.ListenAndServe(viper.GetString("addr"), g).Error())

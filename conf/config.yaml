@@ -21,9 +21,9 @@ db:
  name: db_apiserver
  attr: 127.0.0.1:3306
  username: root
- password: root
+ password: 123456
 db:
  name: db_apiserver
  attr: 127.0.0.1:3306
  username: root
- password: root
+ password: 123456
